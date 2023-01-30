@@ -46,7 +46,7 @@ System::Void MyForm::MyForm_Load(System::Object^  sender, System::EventArgs^  e)
 	System::Collections::Generic::List<String^>^ sampleList = gcnew System::Collections::Generic::List<String^>;
 	//リストの個数
 	int listNum = 9;
-	//宣言をループ外に出さないと、同じ数字になってしまう
+	//宣言をループ外に出さないと、同じ数字になってしまう.
 	Random^ rnd = gcnew Random();
 	for (int i = 0; i < listNum; i++) {
 		//100までの乱数生成
